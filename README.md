@@ -1,4 +1,4 @@
-# Namaste React 🚀
+### Hello React 🚀
 
 # Parcel
     - Dev Builds
