@@ -19,4 +19,12 @@
     - Tree Shaking - remove unused code
     - Different dev and prod bundles
 
+
+# Babel
+    - Babel converts JSX code in such a way that React can understand.    
+
+# Foundation
+    - React Element is nothing but a normal JavaScript "Object"
+    - A functional component is a normal JavaScript function which returns some piece of JSX
+    - Component Composition ==> componet inside a component
     
