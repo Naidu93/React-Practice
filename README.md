@@ -28,3 +28,21 @@
     - A functional component is a normal JavaScript function which returns some piece of JSX
     - Component Composition ==> componet inside a component
     
+
+/**
+ * Header
+ *     -Logo
+ *     -Nav Items
+ * Body
+ *      -Search
+ *      -RestaurantContainer
+ *          -RestaurantCard
+ *  Footer
+ *      -Copyright
+ *      -Links
+ *      -Address
+ *      -Contact
+ * 
+ */
+
+ # Let's Get Hooked
