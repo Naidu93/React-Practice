@@ -27,7 +27,8 @@
     - React Element is nothing but a normal JavaScript "Object"
     - A functional component is a normal JavaScript function which returns some piece of JSX
     - Component Composition ==> componet inside a component
-    
+
+ # LLD   
 
 /**
  * Header
