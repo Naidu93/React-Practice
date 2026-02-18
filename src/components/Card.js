@@ -1,6 +1,6 @@
 const Card =(props)=>{
     const {resName,rating,image,deliveryTime,cuisines}= props;
-    console.log(image);
+    // console.log(image);
     
     return(
         <div className="card">

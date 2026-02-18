@@ -85,14 +85,27 @@
 
 }
 .input{
-    margin-right: 20px;
+    /* margin-right: 20px; */
     padding:10px;
     font-size: 24px;
     outline: none;
     border: none;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
-    border-radius: 5px;
+    border-radius: 5ps 0px 0px 5px;
     font-weight: bold;
+    
+}
+.search-btn{
+    padding: 10px;
+    font-size: 24px;
+    margin-right: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:  rgb(243, 103, 10);
+    color:white;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    border-radius:0 5px 5px 0;
 }
 .filter-btn{
     padding: 10px;
@@ -105,7 +118,12 @@
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
 }
-
+.search-btn:hover{
+    background-color: green;
+}
+.search-btn:active{
+    transform: scale(0.95);
+}
 .filter-btn:hover{
     background-color: green;
 }
