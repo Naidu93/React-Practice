@@ -6,6 +6,7 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router";
 import About from "./components/About";
 import Cart from "./components/Cart";
 import Error from "./components/Error";
+import ResInfo from "./components/ResInfo";
 
 
 
@@ -48,6 +49,10 @@ const appRouter = createBrowserRouter([
                  {
                  path:"/cart",
                  element:<Cart />
+                 },
+                 {
+                    path:"/restaurant",
+                    element:<ResInfo />
                  }
         ]
     },

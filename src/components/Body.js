@@ -2,6 +2,7 @@ import Card from "./Card";
 import { resList } from "../utils/resList";
 import {CDN_URL, MAIN_URL} from "../utils/constants"
 import { useState, useEffect } from "react";
+import { Link } from "react-router";
 
 
 const Body=()=>{
@@ -56,14 +57,17 @@ console.log(list);
             <div className="card-container">
                 {list.map((restaurant,index)=>{
                     return(
+                        <Link className="link-res" to="/restaurant" key={restaurant?.info?.id} >
                         <Card 
-                            key={restaurant?.info?.id} 
+                            
                             resName ={restaurant?.info?.name}
                             image={`${CDN_URL}${restaurant.info.cloudinaryImageId}`}
                             rating={restaurant.info.avgRating}
                             deliveryTime={restaurant.info.sla.slaString}
                             cuisines={restaurant.info.cuisines.join(",").substring(0,18)}
+                            
                         />
+                        </Link>
                     )
                 })}
             </div>
