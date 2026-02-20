@@ -47,3 +47,6 @@
  */
 
  # Let's Get Hooked
+
+    -useState() => A super powerful local state variable given by React
+    - whener a state varible changes react will re-render the component.
